@@ -4,7 +4,7 @@ React App OMDb API
 ## Comandos
 - `npm init -y` : Crea archivo de configuracion package.json
 ## Modulos
-- `npm i webpack `
+- `npm i webpack`
 - `npm i webpack-cli`
 - `npm i babel-loader`
 - `npm i @babel/core`
@@ -14,11 +14,9 @@ React App OMDb API
 npm i webpack webpack-cli babel-loader @babel/core @babel/preset-env @babel/preset-react
 ```
 - `npm i html-webpack-plugin` : Copiar html de desarrollo a produccion
-- `webpack-dev-server`
-- npm i dotenv-webpack
-- npm install dotenv-webpack --save-dev
-
-
+- `npm i react`
+- `npm i react-dom`: Manipular el (dom) document object model, del navegador 
+- `npm i webpack-dev-server`: Servidor de desarrollo
 
 ## Requeriments
 As a requeriment for this example, you need to get your API Key in this website using your email
