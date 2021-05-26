@@ -17,6 +17,9 @@ npm i webpack webpack-cli babel-loader @babel/core @babel/preset-env @babel/pres
 - `npm i react`
 - `npm i react-dom`: Manipular el (dom) document object model, del navegador 
 - `npm i webpack-dev-server`: Servidor de desarrollo
+- `npm i bootswatch`
+- `npm i css-loader` : css en webpack
+- `npm i style-loader` : 
 
 ## Requeriments
 As a requeriment for this example, you need to get your API Key in this website using your email

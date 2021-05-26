@@ -1,4 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-ReactDOM.render(<h1>holiii</h1>, document.getElementById('root'))
+import List  from "./containers/List";
+
+import 'bootswatch/dist/lux/bootstrap.min.css'; 
+
+const App = () => {
+    return (
+        <main className= "bg-dark">
+            <div className="container">
+                <List/>
+            </div>
+        </main>
+    )
+}
+
+ReactDOM.render(<App/>, document.getElementById('root'))
