@@ -20,7 +20,7 @@ npm i webpack webpack-cli babel-loader @babel/core @babel/preset-env @babel/pres
 - `npm i bootswatch`
 - `npm i css-loader` : css en webpack
 - `npm i style-loader` : 
----------not use
+## not use
 - `npm i eslint`: revisa codigo Ej: falta de variables de entorno.
 - `npm i eslint-webpack-plugin`:
 - `npm i eslint-plugin-react`:
