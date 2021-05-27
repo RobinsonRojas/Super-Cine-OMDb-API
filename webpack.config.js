@@ -6,7 +6,7 @@ const HtmlPlugin = new HtmlWebpackPlugin({
     filename: './index.html'
 })
 
-//Condifuraciones del Webpack
+
 module.exports = {
     module: 
     {
