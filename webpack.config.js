@@ -1,29 +1,25 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 //Definiendo archivos a renderizar y administrar
 const HtmlPlugin = new HtmlWebpackPlugin({
-    template: './src/index.html',
-    filename: './index.html'
-})
-
+  template: "./src/index.html",
+  filename: "./index.html",
+});
 
 module.exports = {
-    module: 
-    {
-        rules:
-        [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: ['babel-loader']
-            },
-            {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader']
-            }
-        ]
-    },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"],
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 
-    plugins: [HtmlPlugin]
-
+  plugins: [HtmlPlugin],
 };
