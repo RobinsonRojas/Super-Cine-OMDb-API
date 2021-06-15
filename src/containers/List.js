@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import Card from "../components/Card/Card";
 
-const API = "http://www.omdbapi.com/?i=tt3896198&apikey=42d1da59";
+const API = "https://www.omdbapi.com/?i=tt3896198&apikey=42d1da59";
 
 class List extends React.Component {
   constructor() {
