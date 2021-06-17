@@ -2,7 +2,8 @@ import React, { Fragment } from "react";
 
 import Card from "../components/Card/Card";
 
-const API = "http://www.omdbapi.com/?i=tt3896198&apikey=42d1da59";
+console.log(process.env.API);
+const API = process.env.API;
 
 class List extends React.Component {
   constructor() {
@@ -11,15 +12,15 @@ class List extends React.Component {
       data: [],
       searchTerm: "",
       error: "",
+      loading: true,
     };
   }
 
   async componentDidMount() {
-    //const res = await fetch('../../assets/data.json')
     const res = await fetch(`${API}&s=batman`);
     const resJSON = await res.json();
     console.log(resJSON);
-    this.setState({ data: resJSON.Search });
+    this.setState({ data: resJSON.Search, loading: false });
   }
 
   async handleSubmit(e) {
@@ -38,6 +39,14 @@ class List extends React.Component {
   }
 
   render() {
+    const { data, loading } = this.state;
+    if (loading) {
+      return (
+        <div>
+          <h1 className="text-white">Loading...</h1>
+        </div>
+      );
+    }
     return (
       <Fragment>
         <div className="row">
@@ -58,7 +67,7 @@ class List extends React.Component {
           </div>
         </div>
         <div className="row">
-          {this.state.data.map((movie, i) => {
+          {data.map((movie, i) => {
             return <Card movie={movie} key={i} />;
           })}
         </div>

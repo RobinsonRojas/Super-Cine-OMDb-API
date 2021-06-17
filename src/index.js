@@ -10,7 +10,7 @@ const App = () => {
     <Fragment>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="">
             Super Cine
           </a>
         </div>

@@ -8,7 +8,7 @@ application created without using `create-react-app` to learn npm package.
 
 ## Screenshots
 
-![App Screenshot](Screenshot.jpeg)
+![App Screenshot](img\Screenshot.jpeg)
 
 ## npm Packages
 
@@ -27,9 +27,11 @@ application created without using `create-react-app` to learn npm package.
 - `bootswatch` : Estilos CSS.
 - `css-loader` : Convertir el css importado dentro del js.
 - `style-loader` : Cargar los estilos convertidos en el DOM.
+- `prop-types` : Verificación de variables de react. o Flow o TypeScript.
 
 ### devDependencies
 
+- `dotenv-webpack` : Variables de entorno con webpack.
 - `eslint`: Revisa código Ej: falta de variables de entorno.
 - `eslint-webpack-plugin`: Integración con webpack verificar al ejecutar.
 - `eslint-plugin-react`: Analiza código jsx.
@@ -43,8 +45,8 @@ application created without using `create-react-app` to learn npm package.
 
 ## npm Scripts
 
-- `start` : "webpack serve --mode development --open",
-- `production` : "webpack --mode production"
+- `npm start` : "webpack serve --mode development --open",
+- `npm run production` : "webpack --mode production"
 
 ## API
 

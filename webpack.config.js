@@ -1,5 +1,7 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ESLintPlugin = require("eslint-webpack-plugin");
+const DotEnv = require("dotenv-webpack");
+
 //Definiendo archivos a renderizar y administrar
 const HtmlPlugin = new HtmlWebpackPlugin({
   template: "./src/index.html",
@@ -21,5 +23,5 @@ module.exports = {
     ],
   },
 
-  plugins: [new ESLintPlugin(), HtmlPlugin],
+  plugins: [new ESLintPlugin(), HtmlPlugin, new DotEnv()],
 };
