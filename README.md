@@ -1,31 +1,39 @@
-# React-App-OMDb-API
+# Description
 
-React App OMDb API
+Is a React App to find information about movies and series from a RESTful API (OMDB).
 
-## npm Package
+> learning app
+
+application created without using `create-react-app` to learn npm package.
+
+## Screenshots
+
+![App Screenshot](Screenshot.jpeg)
+
+## npm Packages
 
 ### dependencies
 
-- `npm i webpack` :
-- `npm i webpack-cli`
-- `npm i babel-loader`
-- `npm i @babel/core`
-- `npm i @babel/preset-env`
-- `npm i @babel/preset-react`
-- `npm i html-webpack-plugin` : Copiar html de desarrollo a produccion
-- `npm i react`
-- `npm i react-dom`: Manipular el (dom) document object model, del navegador
-- `npm i webpack-dev-server`: Servidor de desarrollo
-- `npm i bootswatch`
-- `npm i css-loader` : css en webpack
-- `npm i style-loader` :
+- `webpack` : Empaqueta archivos para su uso en un navegador.
+- `webpack-cli` : Comandos para configurar webpack en (cli).
+- `@babel/core` : Transforma código moderno React a código enfocado en el navegador.
+- `@babel/preset-env` : Permite usar el último JS sin necesidad de microgestionar transformaciones de sintaxis por cada entorno de destino.
+- `@babel/preset-react` : Entender jsx.
+- `babel-loader` : Integra con webpack.
+- `html-webpack-plugin` : Copiar html de desarrollo a producción.
+- `react` : React.
+- `react-dom`: Manipular el (dom) document object model, del navegador.
+- `webpack-dev-server`: Servidor de desarrollo local.
+- `bootswatch` : Estilos CSS.
+- `css-loader` : Convertir el css importado dentro del js.
+- `style-loader` : Cargar los estilos convertidos en el DOM.
 
 ### devDependencies
 
-- `npm i eslint`: revisa codigo Ej: falta de variables de entorno.
-- `npm i eslint-webpack-plugin`:
-- `npm i eslint-plugin-react`:
-- `npm i dotenv`: variables de entorno
+- `eslint`: Revisa código Ej: falta de variables de entorno.
+- `eslint-webpack-plugin`: Integración con webpack verificar al ejecutar.
+- `eslint-plugin-react`: Analiza código jsx.
+- `dotenv-webpack`: Variables de entorno.
 
 ### Install Package
 
@@ -40,14 +48,14 @@ React App OMDb API
 
 ## API
 
-- [OMDB API KEY](http://www.omdbapi.com/)
+[OMDB API KEY](http://www.omdbapi.com/)
 
 ---
 
 ### 📝 License
 
-- This project is licensed under MIT license.
+This project is available under the **"The Unlicense".** See the [LICENSE](LICENSE) file for more information.
 
-#### 🌐 Based on
+### 🌐 Based on
 
-- [React sin create-react-app | Aplicación de Series y Peliculas con OMDB](https://youtu.be/SJwWQATQGvc)
+[React sin create-react-app | Aplicación de Series y Peliculas con OMDB](https://youtu.be/SJwWQATQGvc)

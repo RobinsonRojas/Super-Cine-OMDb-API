@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-
+const ESLintPlugin = require("eslint-webpack-plugin");
 //Definiendo archivos a renderizar y administrar
 const HtmlPlugin = new HtmlWebpackPlugin({
   template: "./src/index.html",
@@ -21,5 +21,5 @@ module.exports = {
     ],
   },
 
-  plugins: [HtmlPlugin],
+  plugins: [new ESLintPlugin(), HtmlPlugin],
 };
