@@ -8,7 +8,7 @@ application created without using `create-react-app` to learn npm package.
 
 ## Screenshots
 
-![App Screenshot](img\Screenshot.jpeg)
+![App Screenshot](img/Screenshot.jpeg)
 
 ## npm Packages
 
@@ -40,7 +40,7 @@ application created without using `create-react-app` to learn npm package.
 ### Install Package
 
 ```bash
-  npm install
+npm install
 ```
 
 ## npm Scripts
